@@ -14,6 +14,22 @@
  * limitations under the License.
  */
 
+/*
+ * Copyright (C) 2020 The LineageOS Project
+ *
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *      http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
 #include <cstdlib>
 #include <cstring>
 #include <sys/sysinfo.h>
@@ -70,34 +86,34 @@ void load_device_properties() {
     if (hwname == "curtana") {
         if (region == "Global_TWO") {
             set_device_props(
-                    "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                    "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                    "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                    "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
         } else if (region == "India") {
             set_device_props(
-                    "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                    "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                    "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                    "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                     "Redmi", "curtana", "Redmi Note 9 Pro");
         } else if (region == "Japan") {
             set_device_props(
-                    "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                    "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                    "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                    "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                     "Redmi", "curtana", "Redmi Note 9S");
         }
     } else if (hwname == "excalibur") {
         set_device_props(
-                "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                 "Redmi", "excalibur", "Redmi Note 9 Pro Max");
     } else if (hwname == "gram") {
         set_device_props(
-                "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                 "POCO", "gram", "POCO M2 Pro");
     } else if (hwname == "joyeuse") {
         set_device_props(
-                "google/redfin/redfin:11/RQ1A.210105.003/7005429:user/release-keys",
-                "redfin-user 11 RQ1A.210105.003 7005429 release-keys",
+                "google/redfin/redfin:11/RQ3A.210605.005/7349499:user/release-keys",
+                "redfin-user 11 RQ3A.210605.005 7349499 release-keys",
                 "Redmi", "joyeuse", "Redmi Note 9 Pro");
     }
 }
