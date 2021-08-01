@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/arrow_miatoll.mk
+    $(LOCAL_DIR)/colt_miatoll.mk
 
 COMMON_LUNCH_CHOICES := \
-    arrow_miatoll-user \
-    arrow_miatoll-userdebug \
-    arrow_miatoll-eng
+    colt_miatoll-user \
+    colt_miatoll-userdebug \
+    colt_miatoll-eng
